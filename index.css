@@ -3,8 +3,10 @@
 }
 
 nav {
-  color: red;
+color: white;
+  
 }
+
 
 #hero-section {
   color: blue
@@ -32,6 +34,54 @@ nav {
 
 footer {
   color: blueviolet; 
-  color: blue
 
+}
+
+header{
+  
+  background-image: url(/images/bgk-header.png);
+  width: auto;
+  height: 500px;
+  color: white;
+}
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.navbar-logo{
+  float: left;
+}
+
+.menu-items{
+  margin: 15px 8px;
+  
+}
+.menu-items:hover{
+  color: aqua;
+}
+
+#btn-learnMore{
+  margin: 24px;  
+  padding: 8px 12px; 
+  border: 2px solid aqua;
+  background-color: transparent;
+  color: aqua;
+}
+.header-text{
+  text-align: center;
+}
+
+hr {
+display: block;
+width: 20%;
+margin-left: 40%;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+.tajam{
+  width: 80px;
 }
