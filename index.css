@@ -37,13 +37,6 @@ footer {
 
 }
 
-header{
-  
-  background-image: url(/images/bgk-header.png);
-  width: auto;
-  height: 500px;
-  color: white;
-}
 #navbar{
   display: flex;
   justify-content: space-between;
@@ -70,8 +63,13 @@ header{
   background-color: transparent;
   color: aqua;
 }
-.header-text{
+#hero-section {
   text-align: center;
+  background-image: url(/images/bgk-header.png);
+  width: auto;
+  height: 500px;
+  color: white;
+  
 }
 
 hr {
@@ -84,4 +82,25 @@ margin-bottom: 25px;
 
 .tajam{
   width: 80px;
+}
+
+.our_story-box {
+  height: 300px; 
+  background-color: blue;
+  position: relative; 
+  display: flex;
+  
+}
+
+.image_our-story .big_logo-image {
+  height: auto; 
+  width: 150px; 
+  padding: 20px; 
+  margin-left: 250px;
+}
+
+.our_story-tetx {
+  margin-top: 20px;
+  padding: 20px; 
+  margin-left: 50px;
 }
