@@ -1,106 +1,140 @@
-* {
-  margin: 0;
-}
+/* Navbar, Herosection */ 
 
-nav {
-color: white;
-  
-}
-
-
-#hero-section {
-  color: blue
-}
-
-#our_story-section {
-  color: green;
-}
-
-#watch-section {
-  color: darkred;
-}
-
-#expertise-section {
-  color: fuchsia;
-}
-
-#team-section {
-  color: yellowgreen;
-}
-
-#contact_client-section {
-  color: lightsalmon;
-}
-
-footer {
-  color: blueviolet; 
-
-}
-
-#navbar{
+#navbar {
   display: flex;
-  justify-content: space-between;
-  
-
+  width: 70%;
+  margin: 0 auto;
+  justify-content: space-between; /*컨텐츠와 컨텐츠 사이에 간격을 적절히 주기위한것*/
+  background-color: var(--color-pink);
+  align-items: center; 
+  color: var(--color-white)
+  padding: 16px; 
 }
 
-.navbar-logo{
-  float: left;
-}
+.navbar_menu {
+  display: flex;  
 
-.menu-items{
-  margin: 15px 8px;
-  
-}
-.menu-items:hover{
-  color: aqua;
-}
 
-#btn-learnMore{
-  margin: 24px;  
+}
+.navbar_menu_item {
   padding: 8px 12px; 
-  border: 2px solid aqua;
-  background-color: transparent;
-  color: aqua;
-}
-#hero-section {
-  text-align: center;
-  background-image: url(/images/bgk-header.png);
-  width: auto;
-  height: 500px;
-  color: white;
-  
+  margin: 0px 4px;
+  cursor: pointer;
+  color: var(--color-white)
+  border-radius: 4px; 
+  font-size: smaller; 
+  color: white
 }
 
-hr {
-display: block;
-width: 20%;
-margin-left: 40%;
-margin-top: 25px;
-margin-bottom: 25px;
+.active {
+  color: aqua;
 }
+
+.navbar_menu_item:hover {
+  background-color: var(--color-blue) ;
+  border-radius: 20px; 
+}
+
+.navbar-logo {
+  font-size: var(--font-medium)
+  font-weight: var(--weight-semi-bold)
+} 
+
 
 .tajam{
   width: 80px;
 }
 
+#header-images {
+  background: url(images/bgk-header.png) center/cover no-repeat;  /* 센터에두고 반응형, 반복하지 않게 쓰이게!  */
+  padding: 10px;
+  text-align: center;
+  height: 500px; 
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  font font-family: font-family: 'senrif' 
+}
+
+.hr {
+  margin: 0 auto;
+  width: 30px; 
+  background-color: aqua;
+}
+
+
+    h1 {
+      color: white;
+      margin-top: 80px;
+      margin-bottom: 50px;
+      font-size: xx-large;
+    }
+
+    p {
+      color: white;
+    }
+
+
+    #btn-learnMore{
+      margin: 24px;  
+      padding: 8px 12px; 
+      border: 2px solid aqua;
+      background-color: transparent;
+      color: aqua;
+      cursor: pointer; 
+      
+    }
+
+
+/*Our Story section*/ 
+
+#our_story-section {
+  display: flex; 
+  position: relative;
+  justify-content: center; 
+  allign-items: center; 
+}
+
 .our_story-box {
-  height: 300px; 
-  background-color: blue;
+  height: 380px; 
+  background-color: white;
   position: relative; 
   display: flex;
-  
+}
+
+.ourstorytext_h1_color{
+  color: black;
+  margin-bottom: 10px;
+}
+
+.ourstorytext_p_color {
+  color: black
 }
 
 .image_our-story .big_logo-image {
-  height: auto; 
-  width: 150px; 
-  padding: 20px; 
-  margin-left: 250px;
+  width: 10vw; 
+  height: 20vh; 
+  margin-left: 350px;
+  margin-top: 100px;
 }
 
-.our_story-tetx {
-  margin-top: 20px;
-  padding: 20px; 
-  margin-left: 50px;
+.our_story-text {
+  margin-top: 0 px;
+  padding left: 3px; 
+  margin-left: 90px;
+  text-align: left;
+  margin-bottom: 200px;
 }
+
+.btn_our-story {
+  margin-top:15px;
+  padding: 8px 12px; 
+  margin left: 12px;  
+  border: 2px solid aqua;
+  background-color: transparent;
+  color: aqua;
+  cursor: pointer; 
+}
+
