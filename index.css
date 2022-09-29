@@ -4,7 +4,7 @@
 }
 
 p {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   
 }
 h1,h2{
@@ -15,28 +15,6 @@ nav {
 
 }
 
-
-#hero-section {
-  color: blue
-}
-
-#our_story-section {
-  color: green;
-}
-
-#watch-section {
-  color: darkred;
-}
-
-#expertise-section {
-  color: fuchsia;
-}
-
-
-footer {
-  color: blueviolet;
-
-}
 
 #navbar {
   display: flex;
@@ -54,6 +32,7 @@ footer {
 .menu-items {
   margin: 15px 8px;
   color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -62,6 +41,7 @@ footer {
 }
 span, a{
   color: white;
+  text-decoration: none;
 }
 span, a:hover{
   color: aqua;
@@ -256,8 +236,9 @@ hr {
 }
 
 input {
+  border: 1px solid lightgray;
   margin: 5px;
-  color: gainsboro;
+  color: lightgrey;
   padding: 7px;
   width: 100%;
 }
