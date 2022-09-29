@@ -1,7 +1,15 @@
 * {
   margin: 0;
+  
 }
 
+p {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+h1,h2{
+  font-family: 'Times New Roman', Times, serif;
+}
 nav {
   color: white;
 
@@ -32,24 +40,32 @@ footer {
 
 #navbar {
   display: flex;
-  justify-content: space-between;
-
+  justify-content: space-around;
+  
 
 }
 
 .navbar-logo {
   float: left;
 }
-
+.menu{
+  margin-top: 20px;;
+}
 .menu-items {
   margin: 15px 8px;
+  color: white;
 
 }
 
 .menu-items:hover {
   color: aqua;
 }
-
+span, a{
+  color: white;
+}
+span, a:hover{
+  color: aqua;
+}
 #btn-learnMore {
   margin: 24px;
   padding: 8px 12px;
@@ -58,11 +74,23 @@ footer {
   color: aqua;
 }
 
+.btn_our-story{
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid aqua;
+  background-color: transparent;
+  color: aqua;
+}
+.text-creative-agency{
+  margin-top: 10px;
+  padding: 80px;
+}
 #hero-section {
+ 
   text-align: center;
   background-image: url(/images/bgk-header.png);
   width: auto;
-  height: 500px;
+  height: 600px;
   color: white;
 
 }
@@ -81,8 +109,8 @@ hr {
 }
 
 .our_story-box {
-  height: 300px;
-  background-color: blue;
+  height: 400px;
+  background-color: white;
   position: relative;
   display: flex;
 
@@ -100,52 +128,54 @@ hr {
   padding: 20px;
   margin-left: 50px;
 }
+
 /*team section*/
-.team-box{
+.team-box {
   height: 600px;
-  background-image:url(/images/bgk-middle.png);
+  background-image: url(/images/bgk-middle.png);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 50px;
   color: white;
-  
+
 }
 
-.items{
+.items {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   background-color: transparent;
   align-items: center;
   padding-top: 80px;
- 
+
   align-content: space-between;
-  
+
 }
 
 
-.box-1{
+.box-1 {
   display: flex;
   flex-direction: row;
-  height: 200px;;
+  height: 200px;
+  ;
   width: 100%;
   background-color: white;
   justify-content: space-between;
-  
- 
-  
-  
+
+
+
+
 }
 
-.bottom-items-section{
+.bottom-items-section {
   margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
 }
 
-.btn-weAre{
+.btn-weAre {
 
   width: 150px;
   margin: 24px;
@@ -156,7 +186,7 @@ hr {
 }
 
 
-.container-text{
+.container-text {
   display: flex;
   flex-direction: column;
   width: 150px;
@@ -165,15 +195,15 @@ hr {
   text-align: center;
   padding-top: 15px;
   color: white;
-  
+
 }
 
-.card{
+.card {
   display: flex;
   flex-direction: column;
   border: solid white 2px;
   align-items: center;
-  
+
   justify-content: center;
   margin: 5px;
 }
@@ -185,27 +215,27 @@ hr {
 
 
 
-.contact-container{
+.contact-container {
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: center;
   margin: 20px;
   margin: 40px;
-  
+
 }
 
-.box-form{
+.box-form {
   display: flex;
   flex-direction: column;
   padding: 50px;
-  align-items:flex-start;
+  align-items: flex-start;
   width: 300px;
   height: 300px;
-  
+
 }
 
-.box-brand-icon{
+.box-brand-icon {
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -213,30 +243,32 @@ hr {
   height: 300px;
 }
 
-.grid-container{
+.grid-container {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50px 50px 50px 50px 50px;
   row-gap: 2px;
 }
-.box-head{
+
+.box-head {
   padding-bottom: 30px;
   font-size: 20px;
 }
 
-input{
+input {
   margin: 5px;
   color: gainsboro;
   padding: 7px;
   width: 100%;
 }
 
-.message{
-height: 100%;
+.message {
+  height: 100%;
 }
-.submnit-btn{
-width: 250px;
-height: 55px;
+
+.submnit-btn {
+  width: 250px;
+  height: 55px;
   margin: 2px;
   padding: 8px 12px;
   border: 2px solid aqua;
@@ -244,7 +276,8 @@ height: 55px;
   color: aqua;
 
 }
-.grid-item img{
-  
+
+.grid-item img {
+
   height: 18px;
 }
