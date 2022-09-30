@@ -55,6 +55,8 @@ margin-bottom: 25px;
 .tajam{
   width: 80px;
 }
+
+/* watch section   */
 #watch-section{
   height:400px;
   background-image: url(/images/bgk-middle.png); 
@@ -75,6 +77,9 @@ margin-bottom: 25px;
   font-size:9px;
   font-weight: 900;
 }
+
+
+/*  Expertise  section  */
 #expertice-section{
   height:500px;
   background-color: white;
@@ -135,6 +140,8 @@ h6{
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/*   footer section   */
 .footer-grid{
   display: grid;
   height: 200px;
