@@ -3,7 +3,7 @@
   
 }
 
-p {
+body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   
 }
@@ -239,12 +239,13 @@ hr {
   font-size: 20px;
 }
 
-input {
+input , textarea {
   border: 1px solid lightgray;
   margin: 5px;
   color: lightgrey;
   padding: 7px;
   width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .message {
