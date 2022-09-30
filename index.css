@@ -30,7 +30,11 @@ nav {
   margin-top: 20px;;
 }
 .menu-items {
-  margin: 15px 8px;
+  margin: 0px 4px;
+  padding: 8px 12px; 
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: smaller; 
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
