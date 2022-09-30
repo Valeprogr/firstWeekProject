@@ -250,3 +250,59 @@ h6{
 .footer-input{
   display: inline-flex;
 }
+
+
+/* -------- responsive ---------------*/
+
+
+@media only screen and (max-width: 800px) {
+  /*   footer section  */
+  #footer-section{
+    margin:25px 0;
+  }
+
+    .footer-grid{
+      display: inline-flex;
+      flex-direction: column;
+      height:10%;
+      width: 100%;
+      margin: 20% 20%;
+      gap: 1.5em;
+      font-family: Arial, Helvetica, sans-serif;
+      justify-content: center;
+      align-content: flex-start;
+      align-items: baseline;
+      font-size:70%; 
+    }
+
+    /*    Expertise section */
+    #expertice-section{
+      height:90%;
+      background-color: white;
+       margin:25px 5px;
+       align-content: center;
+    }
+    .grid{
+      display: grid;
+      height:90%;
+      width: 100%;
+      grid-template-columns: 33% 33% 33% ;
+      grid-template-rows: 55% 55% ;
+      margin:1% 1%;
+      flex-shrink: 0;
+    }
+    .grid-content{
+      margin:5px; 
+   }
+    .grid-1 p, .grid-2 p, .grid-3 p, .grid-4 p, .grid-5 p, .grid-6 p{
+      text-align-last: center;
+      font-family:Arial, Helvetica, sans-serif ;
+      font-size: 53%;
+      opacity: 70%;
+    }
+    h6{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+   
+   
+  }
