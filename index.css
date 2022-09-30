@@ -228,17 +228,24 @@ h6{
  }
  .news-img-box{
   width:300%;
-  background-color: rgb(141, 152, 162);
-  
-   align-items: center;
+ 
+  align-items: center;
   align-content: center;
+  opacity:50%;
+  background-color: transparent;
 }
  .footer-input img{
-  width:2em;
-  
+  size:auto;
   }
+  #btn-send-email{
+  width:4em;
+  padding: 0 20%; 
+  border: 2px solid rgb(141, 152, 162);
+  background-color: rgb(141, 152, 162) ;
+  color: rgb(141, 152, 162);
   
 
+  }
 .footer-grid-4{
   display: inline-flex;
   grid-column: 1/ span 2;
@@ -249,4 +256,11 @@ h6{
 }
 .footer-input{
   display: inline-flex;
+}
+
+
+/*  responsive part */
+
+* {
+  box-sizing: border-box;
 }
