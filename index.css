@@ -1,6 +1,6 @@
-/* * {
+* {
   margin: 0;
-}   */
+}  
 
 /* Navbar, Herosection */
 
@@ -10,7 +10,7 @@ nav {
 
 #navbar {
   display: flex;
-  width: 100%;
+  width: auto;
   margin: 0 auto;
   justify-content: space-around;
   /*컨텐츠와 컨텐츠 사이에 간격을 적절히 주기위한것*/
@@ -35,7 +35,8 @@ nav {
 }
 
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 100%;
 }
 
 .text-creative-agency h1 {
@@ -293,7 +294,7 @@ textarea {
 
 
 .submnit-btn {
-  width: 250px;
+  width: 160px;
   height: 55px;
   margin: 2px;
   padding: 8px 12px;
@@ -302,9 +303,25 @@ textarea {
   color: aqua;
 }
 
-.grid-item img {
-  background-repeat: no-repeat;
-  background-size: auto;
+.grid-item {
+ height: 100%;
+ width:100%;
+ display: flex;
+justify-content: center;
+
+}
+
+.grid-item img{
+  width: auto;
+  height: auto;
+  justify-content: center;
+}
+
+.six .one .two .three .four .five .seven .eight .nine .ten{
+ width: 100%;
+ height: 100%;
+  
+
 }
 
 #header-images {
@@ -460,7 +477,7 @@ p {
   margin: 5%;
   margin-left: 16%;
   height: 400px;
-  width: 800px;
+  width: 100%;
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-template-rows: 200px 200px;
@@ -522,14 +539,17 @@ h6 {
 footer {
   background-image: url(/images/bgk-footer.png);
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+  
 }
 
 .footer-grid {
   display: grid;
-  height: 800px;
-  width: 800px;
-  margin: 0 20%;
+  width: 100%;
+  height: auto;
+  /* margin: 0 20%; */
   grid-template-columns: 28% 28% 28%;
   grid-template-rows: 30%;
   gap: 1.5em;
@@ -623,6 +643,7 @@ h7 {
   background: transparent;
   border: 1px groove #ffffff;
   height: 80%;
+  width: 186px;
 }
 
 :-ms-input-placeholder {
@@ -632,11 +653,10 @@ h7 {
 }
 
 .news-img-box {
-  width: 300%;
-
+  /* width: 300%; */
   align-items: center;
   align-content: center;
-  opacity: 50%;
+  opacity: 62%;
   background-color: transparent;
 }
 
@@ -645,7 +665,9 @@ h7 {
 }
 
 #btn-send-email {
+  margin-top: 8px;
   width: 4em;
+  height: 100%;
   padding: 0 20%;
   border: 2px solid rgb(141, 152, 162);
   background-color: rgb(141, 152, 162);
@@ -681,7 +703,7 @@ h7 {
 
   .footer-grid {
     display: inline-flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     height: 10%;
     width: 100%;
     margin: 20% 20%;
